@@ -1,0 +1,745 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D46CFF31B48674000B841D9 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D46CFF21B48674000B841D9 /* MBProgressHUD.m */; };
+		8D46CFF51B486C7600B841D9 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D46CFF41B486C7600B841D9 /* DetailViewController.swift */; };
+		8D7884A81B47DF67000D9F4A /* imageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7884A71B47DF67000D9F4A /* imageCell.swift */; };
+		8D7884B81B47E116000D9F4A /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D7884B11B47E0FD000D9F4A /* Alamofire.framework */; };
+		8D7884B91B47E116000D9F4A /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8D7884B11B47E0FD000D9F4A /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8D7884BE1B47F66B000D9F4A /* loading.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8D7884BD1B47F66B000D9F4A /* loading.gif */; };
+		8D7884C51B48083E000D9F4A /* icon_capture.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D7884C31B48083E000D9F4A /* icon_capture.png */; };
+		8D7884C61B48083E000D9F4A /* icon_capture@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D7884C41B48083E000D9F4A /* icon_capture@2x.png */; };
+		8D7884D21B481F82000D9F4A /* CaptureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7884D11B481F82000D9F4A /* CaptureViewController.swift */; };
+		8D7884D51B482198000D9F4A /* shotbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D7884D31B482198000D9F4A /* shotbutton.png */; };
+		8D7884D61B482198000D9F4A /* shotbutton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D7884D41B482198000D9F4A /* shotbutton@2x.png */; };
+		8D7A91731B48CA0E0015E4B2 /* FBSDKCoreKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8D7A916C1B48C85E0015E4B2 /* FBSDKCoreKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8D7A91741B48CA0E0015E4B2 /* FBSDKLoginKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8D7A916D1B48C85E0015E4B2 /* FBSDKLoginKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8D7A91791B48E5990015E4B2 /* vn.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 8D7A91781B48E5990015E4B2 /* vn.gpx */; };
+		8D7A917E1B48EF050015E4B2 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D7A917C1B48EF050015E4B2 /* logo.png */; };
+		8D7A917F1B48EF050015E4B2 /* logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D7A917D1B48EF050015E4B2 /* logo@2x.png */; };
+		8D7A91811B48FD730015E4B2 /* HeaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7A91801B48FD730015E4B2 /* HeaderCollectionReusableView.swift */; };
+		8DA9287C1B47C13C00AD039A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA9287B1B47C13C00AD039A /* AppDelegate.swift */; };
+		8DA9287E1B47C13C00AD039A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA9287D1B47C13C00AD039A /* HomeViewController.swift */; };
+		8DA928811B47C13C00AD039A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DA9287F1B47C13C00AD039A /* Main.storyboard */; };
+		8DA928841B47C13C00AD039A /* morement.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8DA928821B47C13C00AD039A /* morement.xcdatamodeld */; };
+		8DA928861B47C13C00AD039A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DA928851B47C13C00AD039A /* Assets.xcassets */; };
+		8DA928891B47C13C00AD039A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DA928871B47C13C00AD039A /* LaunchScreen.storyboard */; };
+		8DA928941B47C13C00AD039A /* morementTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA928931B47C13C00AD039A /* morementTests.swift */; };
+		8DA9289F1B47C13C00AD039A /* morementUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA9289E1B47C13C00AD039A /* morementUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8D7884B01B47E0FD000D9F4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D7884A91B47E0FD000D9F4A /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3319A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS";
+		};
+		8D7884B21B47E0FD000D9F4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D7884A91B47E0FD000D9F4A /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4DD67C0B1A5C55C900ED2280;
+			remoteInfo = "Alamofire OSX";
+		};
+		8D7884B41B47E0FD000D9F4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D7884A91B47E0FD000D9F4A /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3E19A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS Tests";
+		};
+		8D7884B61B47E0FD000D9F4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D7884A91B47E0FD000D9F4A /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F829C6B21A7A94F100A2CD59;
+			remoteInfo = "Alamofire OSX Tests";
+		};
+		8D7884BA1B47E116000D9F4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D7884A91B47E0FD000D9F4A /* Alamofire.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F8111E3219A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS";
+		};
+		8DA928901B47C13C00AD039A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8DA928701B47C13C00AD039A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DA928771B47C13C00AD039A;
+			remoteInfo = morement;
+		};
+		8DA9289B1B47C13C00AD039A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8DA928701B47C13C00AD039A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DA928771B47C13C00AD039A;
+			remoteInfo = morement;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8D7884BC1B47E116000D9F4A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				8D7A91731B48CA0E0015E4B2 /* FBSDKCoreKit.framework in Embed Frameworks */,
+				8D7A91741B48CA0E0015E4B2 /* FBSDKLoginKit.framework in Embed Frameworks */,
+				8D7884B91B47E116000D9F4A /* Alamofire.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8D46CFF01B48674000B841D9 /* morement-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "morement-Bridging-Header.h"; sourceTree = "<group>"; };
+		8D46CFF11B48674000B841D9 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		8D46CFF21B48674000B841D9 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		8D46CFF41B486C7600B841D9 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		8D7884A71B47DF67000D9F4A /* imageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = imageCell.swift; sourceTree = "<group>"; };
+		8D7884A91B47E0FD000D9F4A /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = Alamofire/Alamofire.xcodeproj; sourceTree = "<group>"; };
+		8D7884BD1B47F66B000D9F4A /* loading.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = loading.gif; path = Assets.xcassets/loading.gif; sourceTree = "<group>"; };
+		8D7884C31B48083E000D9F4A /* icon_capture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_capture.png; path = Assets.xcassets/icon_capture.png; sourceTree = "<group>"; };
+		8D7884C41B48083E000D9F4A /* icon_capture@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon_capture@2x.png"; path = "Assets.xcassets/icon_capture@2x.png"; sourceTree = "<group>"; };
+		8D7884D11B481F82000D9F4A /* CaptureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaptureViewController.swift; sourceTree = "<group>"; };
+		8D7884D31B482198000D9F4A /* shotbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = shotbutton.png; path = Assets.xcassets/shotbutton.png; sourceTree = "<group>"; };
+		8D7884D41B482198000D9F4A /* shotbutton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "shotbutton@2x.png"; path = "Assets.xcassets/shotbutton@2x.png"; sourceTree = "<group>"; };
+		8D7A916C1B48C85E0015E4B2 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		8D7A916D1B48C85E0015E4B2 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		8D7A91761B48CC030015E4B2 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		8D7A91781B48E5990015E4B2 /* vn.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = vn.gpx; path = ../../vn.gpx; sourceTree = "<group>"; };
+		8D7A917C1B48EF050015E4B2 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = Assets.xcassets/logo.png; sourceTree = "<group>"; };
+		8D7A917D1B48EF050015E4B2 /* logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo@2x.png"; path = "Assets.xcassets/logo@2x.png"; sourceTree = "<group>"; };
+		8D7A91801B48FD730015E4B2 /* HeaderCollectionReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderCollectionReusableView.swift; sourceTree = "<group>"; };
+		8DA928781B47C13C00AD039A /* morement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = morement.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DA9287B1B47C13C00AD039A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8DA9287D1B47C13C00AD039A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		8DA928801B47C13C00AD039A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8DA928831B47C13C00AD039A /* morement.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = morement.xcdatamodel; sourceTree = "<group>"; };
+		8DA928851B47C13C00AD039A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8DA928881B47C13C00AD039A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8DA9288A1B47C13C00AD039A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DA9288F1B47C13C00AD039A /* morementTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = morementTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DA928931B47C13C00AD039A /* morementTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = morementTests.swift; sourceTree = "<group>"; };
+		8DA928951B47C13C00AD039A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DA9289A1B47C13C00AD039A /* morementUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = morementUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DA9289E1B47C13C00AD039A /* morementUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = morementUITests.swift; sourceTree = "<group>"; };
+		8DA928A01B47C13D00AD039A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DA928751B47C13C00AD039A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D7884B81B47E116000D9F4A /* Alamofire.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DA9288C1B47C13C00AD039A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DA928971B47C13C00AD039A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D46CFEC1B48673500B841D9 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				8D46CFF11B48674000B841D9 /* MBProgressHUD.h */,
+				8D46CFF21B48674000B841D9 /* MBProgressHUD.m */,
+				8D46CFF01B48674000B841D9 /* morement-Bridging-Header.h */,
+			);
+			name = Lib;
+			sourceTree = "<group>";
+		};
+		8D7884AA1B47E0FD000D9F4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D7884B11B47E0FD000D9F4A /* Alamofire.framework */,
+				8D7884B31B47E0FD000D9F4A /* Alamofire.framework */,
+				8D7884B51B47E0FD000D9F4A /* Alamofire iOS Tests.xctest */,
+				8D7884B71B47E0FD000D9F4A /* Alamofire OSX Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D7A91751B48CAE60015E4B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D7A91761B48CC030015E4B2 /* CoreLocation.framework */,
+				8D7A916D1B48C85E0015E4B2 /* FBSDKLoginKit.framework */,
+				8D7A916C1B48C85E0015E4B2 /* FBSDKCoreKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8DA9286F1B47C13C00AD039A = {
+			isa = PBXGroup;
+			children = (
+				8D7A91781B48E5990015E4B2 /* vn.gpx */,
+				8D7884A91B47E0FD000D9F4A /* Alamofire.xcodeproj */,
+				8DA9287A1B47C13C00AD039A /* morement */,
+				8DA928921B47C13C00AD039A /* morementTests */,
+				8DA9289D1B47C13C00AD039A /* morementUITests */,
+				8DA928791B47C13C00AD039A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8DA928791B47C13C00AD039A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DA928781B47C13C00AD039A /* morement.app */,
+				8DA9288F1B47C13C00AD039A /* morementTests.xctest */,
+				8DA9289A1B47C13C00AD039A /* morementUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8DA9287A1B47C13C00AD039A /* morement */ = {
+			isa = PBXGroup;
+			children = (
+				8D7A91751B48CAE60015E4B2 /* Frameworks */,
+				8D46CFEC1B48673500B841D9 /* Lib */,
+				8DA928AE1B47D27300AD039A /* Cells */,
+				8DA928AC1B47CA7F00AD039A /* ViewControllers */,
+				8DA9287B1B47C13C00AD039A /* AppDelegate.swift */,
+				8DA9287F1B47C13C00AD039A /* Main.storyboard */,
+				8DA928851B47C13C00AD039A /* Assets.xcassets */,
+				8D7A917C1B48EF050015E4B2 /* logo.png */,
+				8D7A917D1B48EF050015E4B2 /* logo@2x.png */,
+				8D7884C31B48083E000D9F4A /* icon_capture.png */,
+				8D7884C41B48083E000D9F4A /* icon_capture@2x.png */,
+				8D7884D31B482198000D9F4A /* shotbutton.png */,
+				8D7884D41B482198000D9F4A /* shotbutton@2x.png */,
+				8D7884BD1B47F66B000D9F4A /* loading.gif */,
+				8DA928871B47C13C00AD039A /* LaunchScreen.storyboard */,
+				8DA9288A1B47C13C00AD039A /* Info.plist */,
+				8DA928821B47C13C00AD039A /* morement.xcdatamodeld */,
+			);
+			path = morement;
+			sourceTree = "<group>";
+		};
+		8DA928921B47C13C00AD039A /* morementTests */ = {
+			isa = PBXGroup;
+			children = (
+				8DA928931B47C13C00AD039A /* morementTests.swift */,
+				8DA928951B47C13C00AD039A /* Info.plist */,
+			);
+			path = morementTests;
+			sourceTree = "<group>";
+		};
+		8DA9289D1B47C13C00AD039A /* morementUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8DA9289E1B47C13C00AD039A /* morementUITests.swift */,
+				8DA928A01B47C13D00AD039A /* Info.plist */,
+			);
+			path = morementUITests;
+			sourceTree = "<group>";
+		};
+		8DA928AC1B47CA7F00AD039A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8DA9287D1B47C13C00AD039A /* HomeViewController.swift */,
+				8D7884D11B481F82000D9F4A /* CaptureViewController.swift */,
+				8D46CFF41B486C7600B841D9 /* DetailViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		8DA928AE1B47D27300AD039A /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				8D7884A71B47DF67000D9F4A /* imageCell.swift */,
+				8D7A91801B48FD730015E4B2 /* HeaderCollectionReusableView.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DA928771B47C13C00AD039A /* morement */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DA928A31B47C13D00AD039A /* Build configuration list for PBXNativeTarget "morement" */;
+			buildPhases = (
+				8DA928741B47C13C00AD039A /* Sources */,
+				8DA928751B47C13C00AD039A /* Frameworks */,
+				8DA928761B47C13C00AD039A /* Resources */,
+				8D7884BC1B47E116000D9F4A /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D7884BB1B47E116000D9F4A /* PBXTargetDependency */,
+			);
+			name = morement;
+			productName = morement;
+			productReference = 8DA928781B47C13C00AD039A /* morement.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8DA9288E1B47C13C00AD039A /* morementTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DA928A61B47C13D00AD039A /* Build configuration list for PBXNativeTarget "morementTests" */;
+			buildPhases = (
+				8DA9288B1B47C13C00AD039A /* Sources */,
+				8DA9288C1B47C13C00AD039A /* Frameworks */,
+				8DA9288D1B47C13C00AD039A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8DA928911B47C13C00AD039A /* PBXTargetDependency */,
+			);
+			name = morementTests;
+			productName = morementTests;
+			productReference = 8DA9288F1B47C13C00AD039A /* morementTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8DA928991B47C13C00AD039A /* morementUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DA928A91B47C13D00AD039A /* Build configuration list for PBXNativeTarget "morementUITests" */;
+			buildPhases = (
+				8DA928961B47C13C00AD039A /* Sources */,
+				8DA928971B47C13C00AD039A /* Frameworks */,
+				8DA928981B47C13C00AD039A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8DA9289C1B47C13C00AD039A /* PBXTargetDependency */,
+			);
+			name = morementUITests;
+			productName = morementUITests;
+			productReference = 8DA9289A1B47C13C00AD039A /* morementUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8DA928701B47C13C00AD039A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = morement.vn;
+				TargetAttributes = {
+					8DA928771B47C13C00AD039A = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = WCDR86238V;
+					};
+					8DA9288E1B47C13C00AD039A = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 8DA928771B47C13C00AD039A;
+					};
+					8DA928991B47C13C00AD039A = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 8DA928771B47C13C00AD039A;
+					};
+				};
+			};
+			buildConfigurationList = 8DA928731B47C13C00AD039A /* Build configuration list for PBXProject "morement" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8DA9286F1B47C13C00AD039A;
+			productRefGroup = 8DA928791B47C13C00AD039A /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 8D7884AA1B47E0FD000D9F4A /* Products */;
+					ProjectRef = 8D7884A91B47E0FD000D9F4A /* Alamofire.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				8DA928771B47C13C00AD039A /* morement */,
+				8DA9288E1B47C13C00AD039A /* morementTests */,
+				8DA928991B47C13C00AD039A /* morementUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		8D7884B11B47E0FD000D9F4A /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 8D7884B01B47E0FD000D9F4A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8D7884B31B47E0FD000D9F4A /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 8D7884B21B47E0FD000D9F4A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8D7884B51B47E0FD000D9F4A /* Alamofire iOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire iOS Tests.xctest";
+			remoteRef = 8D7884B41B47E0FD000D9F4A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8D7884B71B47E0FD000D9F4A /* Alamofire OSX Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire OSX Tests.xctest";
+			remoteRef = 8D7884B61B47E0FD000D9F4A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8DA928761B47C13C00AD039A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D7884D61B482198000D9F4A /* shotbutton@2x.png in Resources */,
+				8D7A917F1B48EF050015E4B2 /* logo@2x.png in Resources */,
+				8DA928891B47C13C00AD039A /* LaunchScreen.storyboard in Resources */,
+				8D7884BE1B47F66B000D9F4A /* loading.gif in Resources */,
+				8D7A91791B48E5990015E4B2 /* vn.gpx in Resources */,
+				8D7884C61B48083E000D9F4A /* icon_capture@2x.png in Resources */,
+				8DA928861B47C13C00AD039A /* Assets.xcassets in Resources */,
+				8D7A917E1B48EF050015E4B2 /* logo.png in Resources */,
+				8D7884D51B482198000D9F4A /* shotbutton.png in Resources */,
+				8D7884C51B48083E000D9F4A /* icon_capture.png in Resources */,
+				8DA928811B47C13C00AD039A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DA9288D1B47C13C00AD039A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DA928981B47C13C00AD039A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DA928741B47C13C00AD039A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D7A91811B48FD730015E4B2 /* HeaderCollectionReusableView.swift in Sources */,
+				8DA9287E1B47C13C00AD039A /* HomeViewController.swift in Sources */,
+				8D46CFF31B48674000B841D9 /* MBProgressHUD.m in Sources */,
+				8D7884A81B47DF67000D9F4A /* imageCell.swift in Sources */,
+				8DA928841B47C13C00AD039A /* morement.xcdatamodeld in Sources */,
+				8DA9287C1B47C13C00AD039A /* AppDelegate.swift in Sources */,
+				8D7884D21B481F82000D9F4A /* CaptureViewController.swift in Sources */,
+				8D46CFF51B486C7600B841D9 /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DA9288B1B47C13C00AD039A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DA928941B47C13C00AD039A /* morementTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DA928961B47C13C00AD039A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DA9289F1B47C13C00AD039A /* morementUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8D7884BB1B47E116000D9F4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Alamofire iOS";
+			targetProxy = 8D7884BA1B47E116000D9F4A /* PBXContainerItemProxy */;
+		};
+		8DA928911B47C13C00AD039A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DA928771B47C13C00AD039A /* morement */;
+			targetProxy = 8DA928901B47C13C00AD039A /* PBXContainerItemProxy */;
+		};
+		8DA9289C1B47C13C00AD039A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DA928771B47C13C00AD039A /* morement */;
+			targetProxy = 8DA9289B1B47C13C00AD039A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8DA9287F1B47C13C00AD039A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DA928801B47C13C00AD039A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8DA928871B47C13C00AD039A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DA928881B47C13C00AD039A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8DA928A11B47C13D00AD039A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8DA928A21B47C13D00AD039A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8DA928A41B47C13D00AD039A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = morement/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vn.morement.vn.morement;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "morement/morement-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8DA928A51B47C13D00AD039A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = morement/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vn.morement.vn.morement;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "morement/morement-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Release;
+		};
+		8DA928A71B47C13D00AD039A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = morementTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vn.morement.vn.morementTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/morement.app/morement";
+			};
+			name = Debug;
+		};
+		8DA928A81B47C13D00AD039A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = morementTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vn.morement.vn.morementTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/morement.app/morement";
+			};
+			name = Release;
+		};
+		8DA928AA1B47C13D00AD039A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = morementUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vn.morement.vn.morementUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = morement;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		8DA928AB1B47C13D00AD039A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = morementUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vn.morement.vn.morementUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = morement;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8DA928731B47C13C00AD039A /* Build configuration list for PBXProject "morement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DA928A11B47C13D00AD039A /* Debug */,
+				8DA928A21B47C13D00AD039A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DA928A31B47C13D00AD039A /* Build configuration list for PBXNativeTarget "morement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DA928A41B47C13D00AD039A /* Debug */,
+				8DA928A51B47C13D00AD039A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DA928A61B47C13D00AD039A /* Build configuration list for PBXNativeTarget "morementTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DA928A71B47C13D00AD039A /* Debug */,
+				8DA928A81B47C13D00AD039A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DA928A91B47C13D00AD039A /* Build configuration list for PBXNativeTarget "morementUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DA928AA1B47C13D00AD039A /* Debug */,
+				8DA928AB1B47C13D00AD039A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8DA928821B47C13C00AD039A /* morement.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8DA928831B47C13C00AD039A /* morement.xcdatamodel */,
+			);
+			currentVersion = 8DA928831B47C13C00AD039A /* morement.xcdatamodel */;
+			path = morement.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8DA928701B47C13C00AD039A /* Project object */;
+}
